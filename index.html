@@ -15,9 +15,106 @@
         <a href="javascript:void(0);" id="BBCImg">
             <img src="https://1000logos.net/wp-content/uploads/2021/05/BBC-logo.png" alt="BBC Logo"/>
         </a>
+        <!-- User Sign In-->
+        <a href="javascript:void(0);" id="nav-sign-in">
+            <i class="fas fa-user-circle"></i>
+            <div class="nav-sign-in-text">Sign In</div>
+            <div class="nav-line nav-light-blue"></div>
+        </a>
+        <!-- Bell Icon -->
+        <a href="javascript:void(0);" id="nav-bell-icon">
+            <i class="fas fa-bell"></i>
+            <div class="nav-line nav-dark-blue"></div>
+        </a>
+    
+        <!-- Main Navbar - Start Home End Cbeebies -->
+    
+        <section id="main-nav">
+            <a href="javascript:void(0);" id="main-nav-home" class="main-nav-entry">
+                <div>Home</div>
+                <div class="nav-line nav-black"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-news" class="main-nav-entry">
+                <div>News</div>
+                <div class="nav-line nav-orange"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-sport" class="main-nav-entry">
+                <div>Sport</div>
+                <div class="nav-line nav-pink"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-weather" class="main-nav-entry">
+                <div>Weather</div>
+                <div class="nav-line nav-green"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-cbbc" class="main-nav-entry">
+                <div>CBBC</div>
+                <div class="nav-line nav-purple"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-iplayer" class="main-nav-entry">
+                <div>iPlayer</div>
+                <div class="nav-line nav-light-blue"></div>
+            </a>
+            <a href="javascript:void(0);" id="main-nav-more" class="main-nav-entry">
+                <div>More</div>
+                <i class="fas fa-carat-down"></i>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <!-- Search Field-->
+            <a href="javascript:void(0);" id="nav-search">
+                <i class="fas fa-search"></i>
+                <div id="nav-search-text">Search</div>
+                <div class="nav-line nav-dark-gray"></div>
+            </a>
+        </section>
+            
     </nav>
+    <!--Drop Down Opens when User Clicks More Tab-->
+    <section id="more-nav">
+        <div id="more-nav-content">
+            <!-- X Closes the Dropdown-->
+            <div id="cross-icon"><i class="fas fa-times"></i></div>
+            <a href="javascript:void(0);">News</a>
+            <a href="javascript:void(0);">Sport</a>
+            <a href="javascript:void(0);">Weather</a>
+            <a href="javascript:void(0);">CBBC</a>
+            <a href="javascript:void(0);">iPlayer</a>
+        </div>
+    </section>
 
-    <header><h1>100Devs BBC Site</h1></header>
+    <!-- Start of Main Page -->
+    <div id="BBCTitle">
+        <div class="center-content title-text">Welcome to the BBC</div>
+    </div>
+
+    <!-- Opening News Cards -->
+    <div class="document-container" style="margin-top: 20px;">
+        <div class="center-content opening-cards"></div>
+    
+        <a class="first-card" href="javascript:void(0);">
+            <div class="card-img-container">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/6C29/production/_108898672_marriageproposaldeath.jpg" width="320px" height="240px" alt="drowning image">
+            </div>
+            <p>A man proposing to his fiance underwater in Tanzenia, drowned today.</p>
+        </a>
+        <a href="javascript:void(0);">
+            <div class="card-img-container">
+                <img src="https://c.files.bbci.co.uk/6764/production/_110986462_gettyimages-1068778256.jpg" width="320px" height="240px" alt="Scientist Discover reason for stomach cancer">
+            </div>
+            <p>Scientist discover that stomach cancer is caused by swallowing</p>
+        </a>
+        <a href="javascript:void(0);">
+            <div class="card-img-container">
+                <img src="https://ichef.bbci.co.uk/news/976/mcs/media/images/70345000/jpg/_70345693_rtr.jpg" width="320px" height="240px" alt="Man kills eight people with truck">
+            </div>
+            <p>Mexican man, convicted of octuple homicide claimed that the accelerator jammed on his Monster Truck.</p>
+        </a>
+    </div>
+
+
+    <!--SCRIPT DO NOT TOUCH OR ALTER-->
+    <script src="javascript/script.js"></script>
+
+
     
 
     
